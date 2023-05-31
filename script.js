@@ -13,6 +13,7 @@ function compare(){
             for(var j=0;j < lines1[i].length; j++){
                 if(lines1[i].charAt(j) != lines2[i].charAt(j)){
                     printLine(i,lines1[i],lines2[i]);
+                    break;
                 }
             }    
         }
