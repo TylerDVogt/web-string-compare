@@ -4,9 +4,9 @@ function compare(){
     var lines2 = document.getElementById("area2").value.split("\n");
     for(var i=0; i < lines1.length || i < lines2.length; i++){
         if(i >= lines1.length){
-            printLine(i,lines2[i]);
+            printLine(i,lines2[i],"[undefined]");
         }else if(i >= lines2.length){
-            printLine(i,lines1[i]);
+            printLine(i,lines1[i],"[undefined]");
         }else if(lines1[i].length != lines2[i].length){
             printLine(i,lines1[i],lines2[i]);
         }else{
