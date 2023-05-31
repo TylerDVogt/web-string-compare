@@ -1,2 +1,2 @@
 # web-string-compare
-Compares two strings and specifies differences between the two.
+A web application that compares two strings and specifies the differences between the two.
